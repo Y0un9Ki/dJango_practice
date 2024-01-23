@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>햄버거 목록</title>
+</head>
+<body>
+    <h1>햄버거 목록입니다</h1>
+    {% for burger in burgers %}
+        <div>{{burger.name}}
+            가격은 {{burger.price}}원 입니다
+            칼로리는 {{burger.calories}}입니다
+        </div>
+    {% endfor %}
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
